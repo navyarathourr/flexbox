@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox in CSS</title>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10vh auto;
+    width: 670px;
+    height: 500px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+    height: 150px;
+    width: 150px;
+    border: 3px solid black;
+    margin: 5px;
+}
+</style>
+<body>
+  <div class="container">
+    <img src="beach.jpg" alt="Beach" class="img">
+    <img src="coralreef.jpg" alt="Coral Reef" class="img">
+    <img src="dolphin.jpg" alt="Dolphin" class="img">
+    <img src="goldfish.jpg" alt="Gold Fish" class="img">
+    <img src="jellyfish.jpg" alt="Jelly Fish" class="img">
+    <img src="nemo.jpg" alt="Nemo" class="img">
+    <img src="redfish.jpg" alt="Red Fish" class="img">
+    <img src="shark.jpg" alt="Shark" class="img">
+    <img src="snail.jpg" alt="Snail" class="img">
+    <img src="strippedfish.jpg" alt="Stripped Fish" class="img">
+    <img src="tortoise.jpg" alt="Tortoise" class="img">
+    <img src="whale.jpg" alt="Whale" class="img">
+  </div>
+</body>
+</html>
